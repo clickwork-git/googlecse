@@ -46,17 +46,17 @@ class pluginGoogleCSE extends Plugin {
                 global $Site;
                 global $layout;
 
-                $html  = '<script>(function() {';
+                $html  = PHP_EOL.'<script>(function() {';
                 $html .= 'var cx = "'.$this->getDbField("search-engine-id").'";';
                 $html .= 'var gcse = document.createElement("script"); gcse.type = "text/javascript"; gcse.async = true; gcse.src = "//www.google.com/cse/cse.js?cx=" + cx;';
                 $html .= 'var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(gcse, s);';
                 $html .= '})();</script>';
-                $html .= '<style>';
+                $html .= '<style>'.PHP_EOL;
                 $html .= 'input.gsc-search-button{display: none !important;}';
                 $html .= 'td.gsc-clear-button{display: none !important;}';
                 $html .= 'div.gsc-clear-button{display: none !important;}';
                 $html .= 'input.gsc-input{display: table !important; margin: 10px 10px !important; width: 100% !important;}';
-                $html .= '</style>';
+                $html .= '</style>'.PHP_EOL;
 
                 return $html;
         }
