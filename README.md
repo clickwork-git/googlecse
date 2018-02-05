@@ -3,7 +3,7 @@ Google CSE
 
 _A plugin for adding a Google Custom Search Engine box in the sidebar_
 
-This plugin works only with themes with a sidebar (Pulse, Default (Log), etc).
+This plugin works only with themes with a sidebar.
 
 To use the plugin you need a Google account and a search engine ID. You can optain an ID at https://cse.google.com.
 
