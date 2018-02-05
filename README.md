@@ -19,6 +19,10 @@ Fixes and extension by Alexandre Teles, alexteles.com.
 Versions
 --------
 
+0.5, February 5, 2018
+- Compatibility with Bludit v2.
+- Slight code improvement.
+
 0.4, August 23, 2016
 - Fixed the "label" setting on the dashboard.
 - Fixed search box style.
