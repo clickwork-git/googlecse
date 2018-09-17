@@ -1,0 +1,9 @@
+{
+	"plugin-data":
+	{
+		"name": "Google CSE",
+		"description": "Google Özel Arama Motoru eklemek için eklenti. Bunu kullanmak için bir Google hesabına ve bir arama motoru kimliğine ihtiyacınız var. Daha fazla talimat için lütfen README dosyasına ve https://cse.google.com bakınız."
+	},
+	"google-search-engine-id": "Google Özel Arama kimliği",
+	"complete-this-field-with-the-google-search-engine-id": "Bu alanı Google arama motoru kimliğiyle tamamlayın."	
+}
